@@ -4,7 +4,12 @@
 <script type="text/javascript" src="js\lib\paper-full.js"></script>
 <script type="text/paperscript" canvas="myCanvas">
 function onKeyDown(event){
-new Path.Circle(new Point(100,100),10).fillColor = "orange";
+<!-- -->
+<!-- included view.size which is a  parameter  -->
+var maxPoint =new Point(view.size.width,view.size.height);
+randomPoint = Point.random();
+point = randomPoint*maxPoint;
+new Path.Circle(point,10).fillColor = "orange";
 	
 }
 
