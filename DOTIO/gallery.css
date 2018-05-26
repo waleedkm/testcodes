@@ -1,0 +1,78 @@
+.bld{
+	font-weight: 800;
+}
+body{
+	font-family: 'Titillium Web', sans-serif;
+/*	background-image: url(bg.jpg); */
+	background-size: cover;
+    background-position: center; 
+    margin: auto;
+
+}
+@media only screen and (max-width: 650px) {
+    .nav-item {
+        font-size: 1.6em;
+        text-align: center;
+    }
+}
+.carousel-item{
+	width: 100%;
+	margin: auto;
+	height: 400px;
+	padding: auto;
+	position: center;	
+}
+.d-block{
+	margin: auto;
+	padding: auto;
+}
+.carousel-caption{
+	top: 0;
+	text-align: left; 
+    bottom: auto;
+	color: black;
+	max-width: 40%;
+	padding-right: 2%;
+
+}
+.carousel{
+	width: 100%;
+	max-height: 400px;
+}
+html{
+	width: 100%;
+    height: 100%;
+}
+.col-sm{
+margin: 1.2%;
+padding: 1%;
+}
+#content{
+	padding-top: 25%;
+	text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+hr {
+	 width: 400px;
+	 max-width: 90%;
+	 border-top: 1px solid #f8f8f8;
+	 border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+h3{
+	font-size: 2em;
+}
+h1{
+	font-weight: 700;
+	font-size: 4em;
+}
+.navbar-nav {
+    margin:0; /* Center your menu with current 100% width available */
+}
+.navbar .nav > li {
+    display: block;
+}
+.navbar .nav > li  img {
+    margin: auto;
+}

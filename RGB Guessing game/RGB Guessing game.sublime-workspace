@@ -1,0 +1,489 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cla",
+				"classList"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"s",
+				"style"
+			],
+			[
+				"cli",
+				"click"
+			],
+			[
+				"pain",
+				"padding"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"pi",
+				"pickedColor"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"squ",
+				"squares"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"rgb",
+				"rgbDisplayValue"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"p",
+				"padding-top"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"win",
+				"winningScore"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"p1",
+				"p1display"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"new",
+				"newTodo"
+			],
+			[
+				"pro",
+				"prompt"
+			],
+			[
+				"n",
+				"numbers"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"navbar",
+				"navbar-nav"
+			],
+			[
+				"top",
+				"margin-top"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"DI",
+				"DIV\tTag"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"bo",
+				"border-left"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"hi",
+				"height\tAttr"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"st",
+				"style\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "rgg.html",
+			"settings":
+			{
+				"buffer_size": 840,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": ".rightAlign{\n\tfloat: right;\n}\n.clicked{\n\tbackground-color: rgb(66, 128, 244);\n\tcolor: white;\n}\n#grpBtn{\n\tmargin: 20px auto;\n\tmax-width: 600px;\n}\n.square{\n\twidth: 30%;\n\tbackground: purple;\n\tpadding-bottom: 30%;\n\tfloat: left;\n\tmargin: 1.66%;\n\tborder-radius: 15%;\n\ttransition: background 0.6s;\n\t-webkit-transition: background 0.6s;\n\t-moz-transition: background 0.6s;\n}\n#buttons{\n\tbackground: white;\n\theight: 30px;\n\ttext-align: center;\n\tcolor: black;\n}\n#easyBtn,#hardBtn,#rstBtn{\n\tborder: none;\n\tbackground: none;\n\ttext-transform: uppercase;\n\theight: 100%;\n\tfont-weight: 700;\n\tcolor: steelblue;\n\tletter-spacing: 1px;\n\tfont-size: inherit;\n\ttransition: all 0.3s;\n\t-webkit-transition: all 0.3s;\n\t-moz-transition: all 0.3s;\n\toutline: none;\n\n}\n#hedSize{\n\tfont-size: 3em;\n}\n.heading{\n\tbackground-color: rgb(66, 128, 244);\n\tcolor: white;\n\ttext-align: center;\n\tpadding: 10px;\n\tfont-size: 2em;\n\ttext-transform: uppercase;\n}\nbody{\n\tfont-family: 'Patua One', cursive;\n\tbackground-color: black;\n}\nhtml{\n\twidth: 100%;\n    height: 100%;\n}\n\n",
+			"file": "rgg.css",
+			"file_size": 1071,
+			"file_write_time": 131687328299284358,
+			"settings":
+			{
+				"buffer_size": 1022,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "rgg.js",
+			"settings":
+			{
+				"buffer_size": 1774,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/irfan/Desktop/waleed/Udemy Exercise/scorekeeper.js",
+		"/C/Users/irfan/Desktop/waleed/gallery/gallery.html",
+		"/C/Users/irfan/Desktop/waleed/Udemy Exercise/scorekeeper.html",
+		"/C/Users/irfan/Desktop/waleed/event listner/eventlistner.html",
+		"/C/Users/irfan/Desktop/waleed/event listner/eventlistner.js",
+		"/C/Users/irfan/Downloads/Todo-List-App/TodoListApp/todos.js",
+		"/C/Users/irfan/Desktop/waleed/js basics/loops.js",
+		"/C/Users/irfan/Desktop/waleed/js basics/guess.html",
+		"/C/Users/irfan/Downloads/Todo-List-App/TodoListApp/list.html",
+		"/C/Users/irfan/Desktop/waleed/js basics/guess.js",
+		"/C/Users/irfan/Desktop/waleed/boot strap/basics.html",
+		"/C/Users/irfan/Desktop/waleed/bt grid/btgrid.html",
+		"/C/Users/irfan/Desktop/waleed/gallery/gallery.css",
+		"/C/Users/irfan/Desktop/waleed/udemy/Image-Gallery-Solution/Image_Gallery_Solution/gallery.html",
+		"/C/Users/irfan/Desktop/waleed/blog exercise/bloge.html",
+		"/C/Users/irfan/Desktop/waleed/fonts.css",
+		"/C/Users/irfan/Desktop/waleed/fonts.html",
+		"/C/Users/irfan/Desktop/waleed/blog exercise/bloge.css",
+		"/C/Users/irfan/Desktop/waleed/tic tac toe/imageLinks.css",
+		"/C/Users/irfan/Desktop/waleed/tic tac toe/imageLinks.html",
+		"/C/Users/irfan/Desktop/waleed/tic tac toe/titato.css",
+		"/C/Users/irfan/Desktop/waleed/tic tac toe/titato.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"squares",
+			"http"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "rgg.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 840,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								255,
+								255
+							],
+							[
+								295,
+								295
+							],
+							[
+								335,
+								335
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "rgg.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1022,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								40
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "rgg.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1774,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								505,
+								505
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "RGB Guessing game.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
