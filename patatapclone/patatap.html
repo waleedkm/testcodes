@@ -14,10 +14,23 @@ point = randomPoint*maxPoint;
 
 <!-- the circle should not be in one line argument -->
 
-newCircle = new Path.Circle(point,20)
-newCircle.fillColor = "orange"
+ <!--  define a circle-->
+
+newCircle = new Path.Circle(point,120);
+
+newCircle.fillColor = "orange";
 circles.push(newCircle);
-<!--console.log(circles);-->
+
+
+	if(event.key === "s"){
+
+	newCircle = new Path.Circle(point,120)
+
+	newCircle.fillColor = "blue"
+	circles.push(newCircle);
+
+	}
+
 	
 }
 
@@ -27,7 +40,10 @@ circles.push(newCircle);
 function onFrame(event) {
 	// Each frame, change the fill color of the path slightly by
 	// adding 1 to its hue:
+
+
 	for(var i = 0; i < circles.length; i++){
+
 <!--	console.log("test") -->
 	circles[i].fillColor.hue += 1;
 	circles[i].scale(0.9);
