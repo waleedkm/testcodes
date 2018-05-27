@@ -3,13 +3,36 @@
 <link rel="stylesheet" type="text/css" href="css\patatap.css">
 <script type="text/javascript" src="js\lib\paper-full.js"></script>
 <script type="text/paperscript" canvas="myCanvas">
+var circles = [];
 function onKeyDown(event){
 <!-- -->
 <!-- included view.size which is a  parameter  -->
+
 var maxPoint =new Point(view.size.width,view.size.height);
 randomPoint = Point.random();
 point = randomPoint*maxPoint;
-new Path.Circle(point,10).fillColor = "orange";
+
+<!-- the circle should not be in one line argument -->
+
+newCircle = new Path.Circle(point,20)
+newCircle.fillColor = "orange"
+circles.push(newCircle);
+<!--console.log(circles);-->
+	
+}
+
+
+
+
+function onFrame(event) {
+	// Each frame, change the fill color of the path slightly by
+	// adding 1 to its hue:
+	for(var i = 0; i < circles.length; i++){
+<!--	console.log("test") -->
+	circles[i].fillColor.hue += 1;
+	circles[i].scale(0.9);
+
+}
 	
 }
 
