@@ -2,8 +2,41 @@
 <html>
 <link rel="stylesheet" type="text/css" href="css\patatap.css">
 <script type="text/javascript" src="js\lib\paper-full.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.12/howler.js"></script>
 <script type="text/paperscript" canvas="myCanvas">
 var circles = [];
+
+var keyData = {
+	a:{ color:"blue",
+		sound: new Howl({
+
+				urls:['clay.mp3']
+			}
+
+		)
+		},
+	s:{ color:"green",
+		sound: new Howl({
+
+				urls:['clay.mp3']
+			}
+
+		)
+		},
+
+	d:{ color:"green",
+		sound: new Howl({
+
+				urls:['clay.mp3']
+			}
+
+		)
+	}
+
+	};
+
+
+
 function onKeyDown(event){
 <!-- -->
 <!-- included view.size which is a  parameter  -->
@@ -12,16 +45,18 @@ var maxPoint =new Point(view.size.width,view.size.height);
 randomPoint = Point.random();
 point = randomPoint*maxPoint;
 
+
+
 <!-- the circle should not be in one line argument -->
 
  <!--  define a circle-->
 
 newCircle = new Path.Circle(point,120);
 
-newCircle.fillColor = "orange";
+newCircle.fillColor = keyData[event.key].color;
 circles.push(newCircle);
-
-
+console.log("test");
+ /*
 	if(event.key === "s"){
 
 	newCircle = new Path.Circle(point,120)
@@ -29,10 +64,10 @@ circles.push(newCircle);
 	newCircle.fillColor = "blue"
 	circles.push(newCircle);
 
-	}
+*/
 
 	
-}
+};
 
 
 
@@ -45,10 +80,10 @@ function onFrame(event) {
 	for(var i = 0; i < circles.length; i++){
 
 <!--	console.log("test") -->
-	circles[i].fillColor.hue += 1;
-	circles[i].scale(0.9);
+		circles[i].fillColor.hue += 1;
+		circles[i].scale(0.9);
 
-}
+		}
 	
 }
 
